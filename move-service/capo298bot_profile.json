@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "timezone": "Asia/Jerusalem",
+    "opening": {
+      "adaptive": true,
+      "min_position_count": 8,
+      "min_top_move_ratio": 0.55,
+      "max_ply_cap": 20
+    }
+  }
