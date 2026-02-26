@@ -1,0 +1,18 @@
+url: "https://lichess.org"
+token: ""
+
+engine:
+  protocol: "uci"
+  dir: "./engines"
+  name: "capo298bot.cmd"
+
+challenge:
+  concurrency: 1
+  variants:
+    - standard
+  rated: true
+  accept_bot: true
+  time_controls:
+    - "300+0"
+  min_rating: 1200
+  max_rating: 2200
